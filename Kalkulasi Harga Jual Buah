@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double massa_buah, harga_buah_per_kg, harga_jual_buah;
+
+    cout << "Masukkan massa buah (kg) : ";
+    cin >> massa_buah;
+
+    cout << "Masukkan harga buah per kg : Rp. ";
+    cin >> harga_buah_per_kg;
+
+    // Mengkalkulasi harga jual buah
+    harga_jual_buah = massa_buah * harga_buah_per_kg;
+
+    cout << "harga jual buah adalah : Rp. " << harga_jual_buah << endl;
+
+    return 0;
+}
